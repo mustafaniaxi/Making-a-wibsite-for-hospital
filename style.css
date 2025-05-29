@@ -79,9 +79,15 @@ header .fa-bars{
     display: none;
 }
 
+header .fa-times{
+    transition: rotate(180deg);
+}
 
-
-
+.header-active{
+    top: 0;
+    width: 100%;
+    box-shadow: .1rem .3rem rgba(0,0,0,.3);
+}
 
 
 
@@ -124,7 +130,7 @@ header .fa-bars{
     }
     header .navbar{
         position: fixed;
-        top: 5.5rem;
+        top: -100rem;
         left: 0;
         width: 100%;
         background: var(--wight);
@@ -142,5 +148,9 @@ header .fa-bars{
     header .navbar ul li a{
         font-size: 3rem;
         display: block;
+    }
+    header .nav-toggle{
+        top:5.5rem;
+        opacity: 1;
     }
 }
