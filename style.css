@@ -175,8 +175,28 @@ header .fa-times{
     overflow: hidden;
     background: var(--wight);
 }
-
-
+.about .box-container .box .images{
+    height: 40rem;
+    width: 50%;
+}
+.about .box-container .box .images img{
+    height: 100%;
+    width: 100%;
+}
+.about .box-container .box .images .content{
+    height: 100%;
+    width: 50%;
+    padding: 2rem;
+}
+.about .box-container .box .images .content h3{
+font-size: 3rem;
+color: var(--blue);
+display: flex;
+align-items: start;
+}
+.about .box-container .box .images .content p{
+    
+}
 
 
 
