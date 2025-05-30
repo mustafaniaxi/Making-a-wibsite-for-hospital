@@ -158,6 +158,27 @@ header .fa-times{
     color: var(--black);
 }
 
+.about{
+    background-color: #f9f9f9;
+}
+.about .box-container{
+    padding:4rem 0;
+} 
+
+.about .box-container .box{
+    width: 75%;
+    margin: 4rem auto;
+    border-radius: .5rem rgba(0, 0, 0, 0.3);
+    box-shadow: 0 .3rem .5rem rgba(0,0,0,.3);
+    align-items: center;
+    display: flex;
+    overflow: hidden;
+    background: var(--wight);
+}
+
+
+
+
 
 @media (max-width:768px){
     html{
