@@ -247,4 +247,18 @@ text-align: start;
     .home .row .images img{
         width: 100%;
     }
+    .aboute .box-container .box{
+        flex-flow: column;
+        width: 90%;
+
+    }
+    .aboute .box-container .box:nth-child(even){
+        flex-flow: column;
+    }
+    .aboute .box-container .box .images{
+        width: 100%;
+    }
+    .aboute .box-container .box .content{
+        width: 100%;
+    }
 }
