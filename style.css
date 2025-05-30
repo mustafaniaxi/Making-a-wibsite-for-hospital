@@ -168,10 +168,10 @@ header .fa-times{
 .about .box-container .box{
     width: 75%;
     margin: 4rem auto;
-    border-radius: .5rem rgba(0, 0, 0, 0.3);
+    border-radius: .5rem;
     box-shadow: 0 .3rem .5rem rgba(0,0,0,.3);
-    align-items: center;
     display: flex;
+    align-items: center;
     overflow: hidden;
     background: var(--wight);
 }
@@ -183,19 +183,25 @@ header .fa-times{
     height: 100%;
     width: 100%;
 }
-.about .box-container .box .images .content{
+.about .box-container .box  .content{
     height: 100%;
     width: 50%;
     padding: 2rem;
 }
-.about .box-container .box .images .content h3{
+.about .box-container .box .content h3{
 font-size: 3rem;
 color: var(--blue);
 display: flex;
 align-items: start;
 }
-.about .box-container .box .images .content p{
-    
+.about .box-container .box  .content p{
+font-size: 1.5rem;
+color: var(--black);
+padding: 1rem 0;
+text-align: start;
+}
+.about .box-container .box:nth-child(even){
+    flex-flow: row-reverse;
 }
 
 
