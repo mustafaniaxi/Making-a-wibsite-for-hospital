@@ -76,7 +76,7 @@ header a {
 }
 
 header a:hover {
-  color: var(--blue);
+  text-decoration: underline;
 }
 
 header .logo {
@@ -114,7 +114,6 @@ header .fa-bars {
   box-shadow: .1rem .3rem rgba(0, 0, 0, .3);
 }
 
-/* Home Section */
 .home {
   min-height: 100vh;
   padding-top: 10rem;
@@ -146,7 +145,6 @@ header .fa-bars {
   color: var(--black);
 }
 
-/* About Section */
 .about {
   background-color: #f9f9f9;
 }
@@ -196,7 +194,6 @@ header .fa-bars {
   flex-flow: row-reverse;
 }
 
-/* Doctor Cards */
 .card .box-container {
   display: flex;
   justify-content: center;
@@ -248,7 +245,6 @@ header .fa-bars {
   margin: 1rem;
 }
 
-/* Review Section */
 .review .box-container {
   display: flex;
   justify-content: center;
@@ -316,6 +312,7 @@ header .fa-bars {
 .contact .row .images img{
     width: 50vw;
     height: 70vh;
+    border-radius: 10%;
 }
 
 .contact .row .form-container{
