@@ -302,6 +302,75 @@ header .fa-bars {
     font-size: 2rem;
 }
 
+.contact{
+    background: #eee;
+}
+
+.contact .row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem 0;
+}
+
+.contact .row .images img{
+    width: 50vw;
+    height: 70vh;
+}
+
+.contact .row .form-container{
+    width: 50%;
+    padding-right: 6rem;
+}
+
+.contact .row .form-container input, textarea{
+    height: 4rem;
+    width: 100%;
+    background: var(--wight);
+    border: none;
+    border-radius: 5rem;
+    padding: 0 1rem;
+    margin: 1rem 0;
+    color: var(--blue);
+    font-size: 1.7rem;
+}
+
+.contact .row .form-container input:focus, textarea:focus{
+    border: .2rem solid var(--blue);
+}
+
+.contact .row .form-container textarea{
+    height: 20rem;
+    border-radius: 1rem;
+    padding: 1rem;
+    resize: none;
+}
+
+.contact .row .form-container input[type="submit"]{
+    width: 17rem;
+    background: var(--blue);
+    color: var(--wight);
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+.contact .row .form-container input[type="submit"]:hover{
+    background: var(--wight);
+    color: var(--blue);
+    border: .2rem solid var(--blue);
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -356,4 +425,29 @@ header .fa-bars {
   .home .row .images img {
     width: 100%;
   }
+  .about .box-container .box{
+    flex-flow: column;
+    width: 90%;
+  }
+  .about .box-container .box:nth-child(even){
+    flex-flow: column;
+  }
+  .about .box-container .box .images{
+    width: 100%;
+  }
+  .about .box-container .box .content{
+    width: 100%;
+  }
+  .contact .row{
+    flex-flow: column;
+  }
+  .contact .row .images img{
+    height: 50vh;
+    width: 90vw;
+  }
+  .contact .row .form-container{
+    width: 90%;
+    padding: 0;
+  }
+
 }
