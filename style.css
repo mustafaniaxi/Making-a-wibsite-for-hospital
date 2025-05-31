@@ -393,13 +393,53 @@ header .fa-bars {
     color: var(--black);
 }
 
+.footer{
+    background: var(--black);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+}
 
+.footer .box{
+    width: 30rem;
+    margin: 2rem;
+    text-align: center;
+}
 
+.footer .box:nth-child(1){
+    text-align: left;
+}
 
+.footer .box .logo{
+    padding: 2rem 0;
+    font-size: 3rem;
+    color: var(--wight);
+}
 
+.footer .box .logo:hover{
+    color: var(--blue);
+}
 
+.footer .box .logo span{
+    color: var(--blue);
+}
 
+.footer .box p{
+    font-size: 1.5rem;
+    color: var(--wight);
+}
 
+.footer .box a{
+    color: var(--wight);
+    font-size: 2rem;
+    display: block;
+    padding: .2rem 0;
+}
+
+.footer .box a:hover{
+    text-decoration: underline;
+}
 
 
 @media (max-width: 768px) {
